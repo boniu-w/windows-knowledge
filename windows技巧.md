@@ -29,6 +29,7 @@ win+v
 
 
 
+
 # 7. windwos 端口 进程
 
 
@@ -50,6 +51,12 @@ netstat -ano
   taskkill /f /t /im "进程id或者进程名称"
 
 
+
+
+
+# 8. 设置开机启动项
+
+win+r -> shell:startup -> 把要开机启动的快捷方式放到 这个文件夹下 就可以了
 
 
 
