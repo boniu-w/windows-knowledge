@@ -94,3 +94,34 @@ win+r -> 输入 msinfo32
 
 
 
+#  12. windows 默认锁屏壁纸 怎么下载
+
+> C:\Users\wg\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
+
+等同与 下面这个命令
+
+> %localappdata%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
+
+# 13. 绑定程序到右键
+
+1. regedit
+2. HKEY_CLASSES_ROOT -> Directory\Background\shell  选中shell 右键新建项 名为qq
+3. 右键qq 新建项 名为 command
+4. 在 command 右端参数上双击
+5. 复制qq 程序的路径, 填入到 数值数据 中
+6. 完成
+
+
+
+
+
+# 14. 查看文件的 md5值, sha256值
+
+```
+certutil -hashfile 文件名 MD5
+
+certutil -hashfile 文件名 SHA1
+
+certutil -hashfile 文件名 SHA256
+```
+
