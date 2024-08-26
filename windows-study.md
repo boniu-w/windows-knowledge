@@ -416,3 +416,13 @@ Alias           write -> Write-Output
 - 重定向文件夹可能会影响到某些应用程序的行为，尤其是那些默认保存文件到这些文件夹的应用程序。
 
 如果你在执行这些步骤时遇到问题，请随时告诉我！
+
+
+
+# 20. some
+
+## 1. 把 浏览器 当成 文本编辑器
+
+
+地址栏: data:text/html, <html contenteditable>
+
